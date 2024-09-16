@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { FaBars, FaXmark} from "react-icons/fa6";
 import Modal from './modal';
 
 
@@ -26,7 +25,7 @@ const Navbar = () => {
     setIsModalopen(false);
   }
 
-  return (
+return (
    <header className='bg-black text-white fixed top-0 right-0 left-0'>
 
     {/*large devices*/}
