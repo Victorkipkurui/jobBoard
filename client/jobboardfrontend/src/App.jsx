@@ -1,13 +1,16 @@
 import './App.css'
-import Jobcard from './components/Jobcard'
+import { BrowserRouter,} from 'react-router-dom';
+
 import Navbar from './components/navbar'
+
 
 function App() {
  
   return (
     <>
-    <Navbar></Navbar>
-    <Jobcard></Jobcard>
+      <BrowserRouter>
+      <Navbar></Navbar>
+      </BrowserRouter>
     </>
   )
 }
