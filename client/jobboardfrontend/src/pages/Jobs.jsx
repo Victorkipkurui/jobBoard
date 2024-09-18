@@ -1,8 +1,11 @@
 import React from 'react'
+import JobListings from '../components/JobListing'
 
 const Jobs=()=> {
   return (
-    <div>Jobs</div>
+    <div className='mt-32'>
+      <JobListings></JobListings>
+    </div>
   )
 }
 

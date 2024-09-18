@@ -4,9 +4,11 @@ const Filters = () => {
   const [remote, setRemote] = useState(false);
   
   return (
-    <div className="p-4 bg-white rounded-lg shadow-md">
+    <div className="p-4 w-52 bg-white rounded-lg shadow-md ml-7">
+      <div className="flex justify-between border-b-2 mb-4">
       <h3 className="text-lg font-semibold mb-4">Filter</h3>
-
+      <h3 className="text-lg font-semibold mb-4 text-blue">Clear All</h3>
+      </div>
       {/* Job Type */}
       <div className="mb-6">
         <h4 className="font-medium mb-2">Job Type</h4>

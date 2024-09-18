@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from "react-icons/fa";
+import Banner from './Banner';
 
 const Navbar = () => {
   const [isMenuOn, setIsMenuOn] = useState(false);
@@ -80,6 +81,7 @@ const Navbar = () => {
         </div>
       )}
     </header>
+   
   );
 };
 
