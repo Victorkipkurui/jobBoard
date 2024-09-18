@@ -4,7 +4,7 @@ const JobCard = ({ job }) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
       <div className="flex">
-      <div>{job.companyLogo}</div>
+      <div><img src={job.companyLogo}></img></div>
       <h3 className="text-xl font-semibold">{job.jobTitle}</h3>
       </div>
       <p className="text-gray-500">{job.companyName}</p>

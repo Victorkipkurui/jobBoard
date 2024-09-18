@@ -16,6 +16,11 @@ const Navbar = () => {
     { path: '/jobs', link: 'Jobs' },
     { path: '/insights', link: 'Insights' },
   ];
+  const [query, setQuery] = useState(null);
+  const handleInputChange = (event) => {
+    setQuery(event.target.value);
+  };
+
 
   return (
     <header className='bg-white text-black fixed top-0 right-0 left-0 z-50'>
@@ -80,6 +85,7 @@ const Navbar = () => {
           </div>
         </div>
       )}
+      <Banner query={query} handleInputChange={handleInputChange}></Banner>
     </header>
    
   );
