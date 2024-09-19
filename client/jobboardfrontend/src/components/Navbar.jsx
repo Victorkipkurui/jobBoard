@@ -85,7 +85,6 @@ const Navbar = () => {
           </div>
         </div>
       )}
-      <Banner query={query} handleInputChange={handleInputChange}></Banner>
     </header>
    
   );

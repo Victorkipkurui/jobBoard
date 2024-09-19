@@ -10,6 +10,8 @@ import Home from './pages/Home.jsx';
 import Jobs from './pages/Jobs.jsx';
 import About from './pages/About.jsx';
 import Insights from './pages/Insights.jsx';
+import Login from './components/Login.jsx';
+import Signup from './components/Signup.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,12 @@ const router = createBrowserRouter([
     },{
       path: '/insights',
       element: <Insights></Insights>
+    },{
+      path: '/login',
+      element: <Login></Login>
+    },{
+      path: '/signup',
+      element: <Signup></Signup>
     }
   ]
   },

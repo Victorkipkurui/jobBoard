@@ -1,22 +1,18 @@
-import React from 'react'
-import Filters from '../components/Filters'
-import Jobcard from '../components/Jobcard'
-import Banner from '../components/Banner'
-const Home=()=> {
+import React from 'react';
+import Filters from '../components/Filters';
+import JobCard from '../components/JobCard'; // Ensure correct naming
+
+const Home = () => {
   return (
     <>
-    <div className='mt-32'>
-      <Banner></Banner>
-    </div>
-    <div className='mt-32'>
-      <Filters></Filters>
-    </div>
-    <div className='mt-32'>
-      <Jobcard></Jobcard>
-    </div>
+      <div className='mt-20'>
+        <Filters />
+      </div>
+      <div className='mt-32'>
+        
+      </div>
     </>
-   
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
